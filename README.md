@@ -1,4 +1,4 @@
-![SoilFLO Logo](/src/assets/soilflo-logo.svg)
+<img src="/src/assets/soilflo-logo.svg" alt="SoilFLO Logo" width="200" />
 
 # Frontend Take-Home Project: Dispatch Dashboard
 
