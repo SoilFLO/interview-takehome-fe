@@ -7,7 +7,7 @@ import type {
 } from './types';
 
 export const getLoadsByTruckId = async (truckId: string, direction: LoadDirection) => {
-  const endpointURL = new URL(`/api/trucks/${truckId}/loads`, import.meta.env.VITE_API_URL);
+  const endpointURL = new URL(`/api/trucks/${truckId}/loads`);
   if (direction) {
     endpointURL.searchParams.set('direction', direction);
   }
